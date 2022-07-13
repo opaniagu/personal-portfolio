@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Personal Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Masthead-->
+    <header class="masthead text-center fondo">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/perfil.png" alt="..." />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading mb-0">Oscar Paniagua</h1>
+
+            <br>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">
+                Python Lover <i class="fa-solid fa-heart"></i> -
+                Coding Trainer <i class="fa-solid fa-graduation-cap"></i> -
+                Backend <i class="fa-solid fa-terminal"></i></i>
+            </p>
+        </div>
+    </header>
+
+
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="row">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">sanfi</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Personal Finance</h6>
+                                <p class="card-text">
+                                    Application for the management of Santander bank accounts, it allows:
+                                    * get the summary of the account (download)
+                                    * transform data (clean, convert, ...)
+                                    * load into a sql database (sqlite, mysql)
+                                    * classify and label consumption (tag) using Machine Learning
+                                    * generate dashboards
+                                </p>
+                                <a href="https://github.com/opaniagu/my-santander-finance"
+                                    class="card-link">[safin](github)</a>
+                                <span class="badge rounded-pill text-bg-info">python</span>
+                                <span class="badge rounded-pill text-bg-light">selenium</span>
+                                <span class="badge rounded-pill text-bg-light">sqlalchemy</span>
+                                <span class="badge rounded-pill text-bg-light">sqlite3</span>
+                                <span class="badge rounded-pill text-bg-light">mysql</span>
+                                <span class="badge rounded-pill text-bg-light">pydantic</span>
+                                <span class="badge rounded-pill text-bg-light">click package</span>
+                                <span class="badge rounded-pill text-bg-light">environment variables</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="row">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">mlcc</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">ML Consumption Classification</h6>
+                                <p class="card-text">
+                                    Application for consumption classification, with data obtained from credit
+                                    card reports, tags like food, clothes, services and more...
+                                </p>
+                                <a href="#" class="card-link">[mlcc](github)</a>
+                                <span class="badge rounded-pill text-bg-info">python</span>
+                                <span class="badge rounded-pill text-bg-info">machine learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section-->
+    <section class="page-section mb-0 fondo" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase">About</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <p class="lead">My passion as a programmer started when I was 14, thanks to my love for electronic.
+                    I graduated in May 2001 with a Electronic Engineer degree from National Technological University.
+                    Before graduating I started to work at Telecom Argentina (Digital Service Provider).
+                    In addition, I am a professor at my university, of the subject of programming.
+                    In my free time I love coding, to developing solutions to digitize life and make it easier,
+                    mainly based on Python (of course...).
+                    Every day, I try to be more active in the Python Community, share my code and help whoever needs it.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer-->
+    <section class="page-section mb-0" id="contact">
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- Footer Location-->
+                    <div class="col-lg-6">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            Ciudad Autonoma de Buenos Aires
+                            <br />
+                            Argentina
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-6">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:opaniagu@gmail.com"><i
+                                class="fa-solid fa-at"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/opaniagu"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/@OscarPa20552214"><i
+                                class="fab fa-fw fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://linkedin.com/in/opaniagu"><i
+                                class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Oscar Paniagua - 2022</small></div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
